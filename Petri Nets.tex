@@ -8,7 +8,6 @@
 
 %\maketitle
 
-%\section{Introduction}
 \section{Basic Conceptions of Petri Nets}
 A Petri net structure is a four-tuple $N=(P,T,Pre,Post)$, where $P$ is a finite set of places, graphically represented by circles; $T$ is a finite set of transitions, graphically represented by bars; the $pre$- incidence matrices of $N$ is defined by $Pre: P \times T \to \mathbb{N}$, and the $post$- incidence matrices of $N$ is defined by $Post: P\times T \to\mathbb{N}$, which specify the structure of the net, where $ \mathbb{N} $ is the set of non-negative integers. Specifically, for $p\in P$, $t\in T$ and $k\in \mathbb{N}$, $Pre(p,t)=k$ means that there exists an arc with weight $k$ from $ p $ to $ t $, 0 otherwise; $Post(p,t)=k$ means that there exists an arc with weight $k$ from $ t $ to $ p $, 0 otherwise. The incidence matrix of a Petri net is defined as $C=Post-Pre$.
 	
